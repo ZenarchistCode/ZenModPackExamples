@@ -1,0 +1,6 @@
+{
+    "ConfigVersion": "1",
+    "UnconMinTime": 120,
+    "UnconMaxTime": 120,
+    "KillZombieRadius": 0
+}

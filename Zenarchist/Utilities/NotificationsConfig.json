@@ -1,0 +1,79 @@
+{
+    "EnableServerNotifications": 1,
+    "ServerMessage": "Server Message",
+    "ServerIcon": "ZenServerGUI/data/gui/icons/notify.edds",
+    "Keywords": [
+        {
+            "Keyword": "[N]",
+            "Title": "#servermessage",
+            "Icon": "#servericon",
+            "HideKeyword": 1
+        },
+        {
+            "Keyword": "[Dart]",
+            "Title": "#servermessage",
+            "Icon": "#servericon",
+            "HideKeyword": 1
+        },
+        {
+            "Keyword": "(Private) Admin:",
+            "Title": "Admin Private Message",
+            "Icon": "#servericon",
+            "HideKeyword": 1
+        },
+        {
+            "Keyword": "(Global) Admin:",
+            "Title": "Admin Global Message",
+            "Icon": "#servericon",
+            "HideKeyword": 1
+        },
+        {
+            "Keyword": "Restart",
+            "Title": "#servermessage",
+            "Icon": "#servericon",
+            "HideKeyword": 0
+        },
+        {
+            "Keyword": "Shutdown",
+            "Title": "#servermessage",
+            "Icon": "#servericon",
+            "HideKeyword": 0
+        },
+        {
+            "Keyword": "Update:",
+            "Title": "#servermessage",
+            "Icon": "#servericon",
+            "HideKeyword": 0
+        },
+        {
+            "Keyword": "Quest:",
+            "Title": "Quest Update:",
+            "Icon": "ZenServerGUI/data/gui/icons/quest.edds",
+            "HideKeyword": 1
+        },
+        {
+            "Keyword": "This pump doesn't",
+            "Title": "Broken Fuel Pump:",
+            "Icon": "ZenServerGUI/data/gui/icons/quest.edds",
+            "HideKeyword": 0
+        },
+        {
+            "Keyword": "This well doesn't",
+            "Title": "Broken Well:",
+            "Icon": "ZenServerGUI/data/gui/icons/quest.edds",
+            "HideKeyword": 0
+        },
+        {
+            "Keyword": "BedRespawn: ",
+            "Title": "Bed Respawn:",
+            "Icon": "#servericon",
+            "HideKeyword": 1
+        },
+		{
+			"Keyword": "Happy New Year!",
+            "Title": "Happy New Year!",
+            "Icon": "#servericon",
+            "HideKeyword": 0
+		}
+    ]
+}

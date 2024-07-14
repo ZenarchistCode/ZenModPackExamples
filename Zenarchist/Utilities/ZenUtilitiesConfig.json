@@ -1,0 +1,26 @@
+{
+    "CONFIG_VERSION": "1",
+    "ShouldLogPVP": 1,
+    "ShouldLogDeathGear": 1,
+    "ShouldDeleteGhostItems": 1,
+    "ShouldLogItemCount": 0,
+    "ItemTextContains": 1,
+    "LogItemTypes": [
+        "Plastic_Explosive",
+		"ExpansionSatchel",
+		"HDSN_BreachingCharge",
+		"HDSN_BreachingChargeHeavy",
+		"Nail",
+		"Nailbox",
+		"Nailbox_250",
+		"ExpansionAmmoRPG",
+		"ExpansionAmmoLAW",
+		"Cannabis",
+		"Plant_Cannabis"
+    ],
+    "ShouldLogRaids": 0,
+    "RaidAmmo": [
+        "ExpansionC4_Ammo",
+        "Plastic_Explosive_Ammo"
+    ]
+}

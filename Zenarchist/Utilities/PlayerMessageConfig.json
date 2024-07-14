@@ -1,0 +1,12 @@
+{
+    "PlayerReplies": [
+        {
+            "BohemiaID": "example123",
+            "Message": "exampleMsg",
+            "SpawnItems": [
+                "exampleItem1(0)",
+                "exampleItem2(100)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "ConfigVersion": "1",
+    "TreesplosionTypes": [
+        {
+            "ExplosiveType": "M67Grenade",
+            "Radius": 10,
+            "CutTreeSoft": 1,
+            "CutTreeHard": 0,
+            "CutBushSoft": 1,
+            "CutBushHard": 1
+        },
+        {
+            "ExplosiveType": "RGD5Grenade",
+            "Radius": 10,
+            "CutTreeSoft": 1,
+            "CutTreeHard": 0,
+            "CutBushSoft": 1,
+            "CutBushHard": 1
+        },
+        {
+            "ExplosiveType": "ClaymoreMine",
+            "Radius": 15,
+            "CutTreeSoft": 1,
+            "CutTreeHard": 1,
+            "CutBushSoft": 1,
+            "CutBushHard": 1
+        },
+        {
+            "ExplosiveType": "40mm_Explosive",
+            "Radius": 10,
+            "CutTreeSoft": 1,
+            "CutTreeHard": 0,
+            "CutBushSoft": 1,
+            "CutBushHard": 1
+        },
+        {
+            "ExplosiveType": "Plastic_Explosive",
+            "Radius": 15,
+            "CutTreeSoft": 1,
+            "CutTreeHard": 1,
+            "CutBushSoft": 1,
+            "CutBushHard": 1
+        },
+        {
+            "ExplosiveType": "ImprovisedExplosive",
+            "Radius": 15,
+            "CutTreeSoft": 1,
+            "CutTreeHard": 1,
+            "CutBushSoft": 1,
+            "CutBushHard": 1
+        }
+    ]
+}

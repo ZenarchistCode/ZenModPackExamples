@@ -1,0 +1,240 @@
+{
+    "ConfigVersion": "1",
+    "MessagePumpNotWork": "This pump doesn't seem to work anymore! I need to repair it with a wrench...",
+    "MessageRepaired": "It seems this pump has already been repaired...",
+    "DisablePumpsByDefault": 1,
+    "DamageTool": 50,
+    "TimeToBreak": 1209600,
+    "RepairablePumps": [
+        {
+            "Location": [
+                2183.849365234375,
+                307.6827087402344,
+                11168.400390625
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                4942.0419921875,
+                525.0281982421875,
+                2138.208740234375
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                9050.3173828125,
+                298.7794189453125,
+                6572.2060546875
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                11524.37109375,
+                182.18807983398438,
+                9447.0771484375
+            ],
+            "Invincible": 0,
+            "Repaired": 1,
+            "BreakTime": 1721812593
+        },
+        {
+            "Location": [
+                11530.556640625,
+                182.18807983398438,
+                9450.150390625
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                5658.64990234375,
+                181.2869110107422,
+                10623.5
+            ],
+            "Invincible": 0,
+            "Repaired": 1,
+            "BreakTime": 1721802086
+        },
+        {
+            "Location": [
+                6375.86962890625,
+                175.59010314941407,
+                10987.7412109375
+            ],
+            "Invincible": 0,
+            "Repaired": 1,
+            "BreakTime": 1721316280
+        },
+        {
+            "Location": [
+                2184.699462890625,
+                307.6782531738281,
+                11165.2294921875
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                5653.66015625,
+                181.2845916748047,
+                10619.099609375
+            ],
+            "Invincible": 0,
+            "Repaired": 1,
+            "BreakTime": 1721505303
+        },
+        {
+            "Location": [
+                3352.41455078125,
+                487.93609619140627,
+                2041.6502685546876
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                3352.33544921875,
+                487.93157958984377,
+                2039.4410400390626
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                3345.489990234375,
+                487.9385070800781,
+                2039.633056640625
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                11531.66796875,
+                182.18807983398438,
+                9448.060546875
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                2006.3275146484376,
+                209.1205596923828,
+                7371.63818359375
+            ],
+            "Invincible": 0,
+            "Repaired": 1,
+            "BreakTime": 1721948404
+        },
+        {
+            "Location": [
+                11518.2001953125,
+                182.1898651123047,
+                9444.072265625
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                6262.40966796875,
+                383.1653747558594,
+                3945.373779296875
+            ],
+            "Invincible": 0,
+            "Repaired": 1,
+            "BreakTime": 1721590777
+        },
+        {
+            "Location": [
+                6259.0068359375,
+                383.147705078125,
+                3948.690185546875
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                2006.0679931640626,
+                209.11268615722657,
+                7364.34765625
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                3338.5693359375,
+                487.9175109863281,
+                2039.8909912109376
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                11525.39453125,
+                182.18807983398438,
+                9445.0654296875
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                6376.4453125,
+                175.6020050048828,
+                10980.8544921875
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                2008.30859375,
+                209.11557006835938,
+                7364.994140625
+            ],
+            "Invincible": 0,
+            "Repaired": 1,
+            "BreakTime": 1721307031
+        },
+        {
+            "Location": [
+                3338.648681640625,
+                487.9205017089844,
+                2042.10009765625
+            ],
+            "Invincible": 0,
+            "Repaired": 1,
+            "BreakTime": 1722020021
+        }
+    ]
+}

@@ -1,0 +1,283 @@
+{
+    "ConfigVersion": "2",
+    "CraftJunkHookHP": 10,
+	"JunkLifetimeSecs": 1800,
+    "LeftoverItems": [
+		{
+            "OriginalItemType": "Vodka",
+            "LeftoverItemType": "Empty_Vodka",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "Fraochan",
+            "LeftoverItemType": "Empty_Fraochan",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "BlackGroat",
+            "LeftoverItemType": "Empty_BlackGroat",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "AuldBroon",
+            "LeftoverItemType": "Empty_AuldBroon",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "Boilermaker",
+            "LeftoverItemType": "Empty_Boilermaker",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "PilgrimsPale",
+            "LeftoverItemType": "Empty_PilgrimsPale",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "Handfasted",
+            "LeftoverItemType": "Empty_Handfasted",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "CreuseWit",
+            "LeftoverItemType": "Empty_CreuseWit",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "Forgeronne",
+            "LeftoverItemType": "Empty_Forgeronne",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "Caoranach",
+            "LeftoverItemType": "Empty_Caoranach",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "SodaCan_MadBull",
+            "LeftoverItemType": "Empty_SodaCan_MadBull",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "BeerCan_VB",
+            "LeftoverItemType": "Empty_BeerCan_VB",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+		{
+            "OriginalItemType": "BeerCan_XXXX",
+            "LeftoverItemType": "Empty_BeerCan_XXXX",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "BeerCan_Corona",
+            "LeftoverItemType": "Empty_BeerCan_Corona",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "SodaCan_Pipsi",
+            "LeftoverItemType": "Empty_SodaCan_Pipsi",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "SodaCan_Cola",
+            "LeftoverItemType": "Empty_SodaCan_Cola",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "SodaCan_Spite",
+            "LeftoverItemType": "Empty_SodaCan_Spite",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "SodaCan_Kvass",
+            "LeftoverItemType": "Empty_SodaCan_Kvass",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "SodaCan_Fronta",
+            "LeftoverItemType": "Empty_SodaCan_Fronta",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "BoxCerealCrunchin",
+            "LeftoverItemType": "Empty_BoxCerealCrunchin",
+            "ItemHealth": 1,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "Rice",
+            "LeftoverItemType": "Empty_Rice",
+            "ItemHealth": 1,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "PowderedMilk",
+            "LeftoverItemType": "Empty_PowderedMilk",
+            "ItemHealth": 1,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "Marmalade",
+            "LeftoverItemType": "Empty_Marmalade",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "Honey",
+            "LeftoverItemType": "Empty_Honey",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "Zagorky",
+            "LeftoverItemType": "Empty_Zagorky",
+            "ItemHealth": 1,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "ZagorkyChocolate",
+            "LeftoverItemType": "Empty_ZagorkyChocolate",
+            "ItemHealth": 1,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "ZagorkyPeanuts",
+            "LeftoverItemType": "Empty_ZagorkyPeanuts",
+            "ItemHealth": 1,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "SaltySticks",
+            "LeftoverItemType": "Empty_SaltySticks",
+            "ItemHealth": 1,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "Crackers",
+            "LeftoverItemType": "Empty_Crackers",
+            "ItemHealth": 1,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "Chips",
+            "LeftoverItemType": "Empty_Chips",
+            "ItemHealth": 1,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "BakedBeansCan_Opened",
+            "LeftoverItemType": "Empty_BakedBeansCan_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "PeachesCan_Opened",
+            "LeftoverItemType": "Empty_PeachesCan_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "TacticalBaconCan_Opened",
+            "LeftoverItemType": "Empty_TacticalBaconCan_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "SpaghettiCan_Opened",
+            "LeftoverItemType": "Empty_SpaghettiCan_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "UnknownFoodCan_Opened",
+            "LeftoverItemType": "Empty_UnknownFoodCan_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "SardinesCan_Opened",
+            "LeftoverItemType": "Empty_SardinesCan_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "TunaCan_Opened",
+            "LeftoverItemType": "Empty_TunaCan_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "DogFoodCan_Opened",
+            "LeftoverItemType": "Empty_DogFoodCan_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "CatFoodCan_Opened",
+            "LeftoverItemType": "Empty_CatFoodCan_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "PorkCan_Opened",
+            "LeftoverItemType": "Empty_PorkCan_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "Lunchmeat_Opened",
+            "LeftoverItemType": "Empty_Lunchmeat_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "Pate_Opened",
+            "LeftoverItemType": "Empty_Pate_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "Pajka_Opened",
+            "LeftoverItemType": "Empty_Pate_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "BrisketSpread_Opened",
+            "LeftoverItemType": "Empty_BrisketSpread_Opened",
+            "ItemHealth": 0,
+            "DropToGround": 0
+        },
+        {
+            "OriginalItemType": "BloodBagIV",
+            "LeftoverItemType": "Used_BloodBagIV",
+            "ItemHealth": 1,
+            "DropToGround": 1
+        },
+        {
+            "OriginalItemType": "SalineBagIV",
+            "LeftoverItemType": "Used_SalineBagIV",
+            "ItemHealth": 1,
+            "DropToGround": 1
+        }
+    ]
+}

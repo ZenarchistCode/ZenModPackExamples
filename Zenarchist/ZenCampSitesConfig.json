@@ -1,0 +1,976 @@
+{
+    "ConfigVersion": "1",
+    "LogsOn": 0,
+    "DebugOn": 0,
+    "SpawnSecs": 2700,
+    "PlayerDetectZone": 300,
+    "MinHealthPercent": 33,
+    "MaxHealthPercent": 100,
+    "MinFireDistance": 3.0,
+    "MaxFireDistance": 4.0,
+    "MinZombies": 0,
+    "MaxZombies": 2,
+    "ZombieTypes": [
+        "ZmbM_HunterOld_Autumn",
+        "ZmbM_HunterOld_Spring",
+        "ZmbM_HunterOld_Summer",
+        "ZmbM_HunterOld_Winter",
+        "ZmbM_HermitSkinny_Beige",
+        "ZmbM_HermitSkinny_Black",
+        "ZmbM_HermitSkinny_Green",
+        "ZmbM_HermitSkinny_Red",
+        "ZmbM_FishermanOld_Blue",
+        "ZmbM_FishermanOld_Green",
+        "ZmbM_FishermanOld_Grey",
+        "ZmbM_FishermanOld_Red"
+    ],
+    "PredefinedLoot": [
+        {
+            "ConfigName": "HuntingLoot",
+            "MinZombies": 0,
+            "MaxZombies": 2,
+            "Loot": [
+                {
+                    "ClassName": "Mosin9130_Camo",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "PUScopeOptic",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_762x54",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_762x54",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_762x54",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "DeerSteakMeat",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 6,
+                    "SpawnChance": 0.75
+                },
+                {
+                    "ClassName": "Ammo_762x39",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_762x39",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_762x39",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "HuntingKnife",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Compass",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Winchester70",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "HuntingOptic",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "InjectorExpBoost10x",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.1
+                },
+                {
+                    "ClassName": "InjectorExpBoost5x",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.3
+                },
+                {
+                    "ClassName": "InjectorExpBoost2x",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Carp",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "GPSReceiver",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.20000000298023225
+                },
+                {
+                    "ClassName": "Bait",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 3,
+                    "SpawnChance": 0.33000001311302187
+                },
+                {
+                    "ClassName": "BoneBait",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 3,
+                    "SpawnChance": 0.33000001311302187
+                },
+                {
+                    "ClassName": "Nail",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 70,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "VitaminBottle",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 12,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "BearSteakMeat",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 3,
+                    "SpawnChance": 0.75
+                },
+                {
+                    "ClassName": "Ammo_22",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 50,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_22",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 50,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_22",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 50,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Magnum",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_357",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_357",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 50,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Ammo_357",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 50,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "LongHorn",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Heatpack",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "UnknownFoodCan",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "MKII",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "Mag_MKII_10Rnd",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                },
+                {
+                    "ClassName": "ChernarusMap",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "SpawnChance": 0.5
+                }
+            ]
+        }
+    ],
+    "CampSites": [
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                620.97998046875,
+                447.17620849609377,
+                12031.560546875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                3120.632568359375,
+                256.02191162109377,
+                11843.4345703125
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                1355.2359619140626,
+                397.75750732421877,
+                11287.96484375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                1775.63916015625,
+                305.7099304199219,
+                11329.2705078125
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                4418.8359375,
+                231.00930786132813,
+                11447.009765625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                6315.587890625,
+                189.2677764892578,
+                11475.123046875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                7104.38330078125,
+                254.771240234375,
+                12345.4892578125
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                7784.23681640625,
+                173.92576599121095,
+                11815.8037109375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                8913.56640625,
+                223.9738006591797,
+                12360.2724609375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                9417.1357421875,
+                173.9523162841797,
+                11844.59765625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                9822.388671875,
+                172.2764892578125,
+                11617.0908203125
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                10812.28515625,
+                182.1441192626953,
+                11617.3974609375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                11888.94921875,
+                273.9513854980469,
+                12203.6357421875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                11311.755859375,
+                252.8758544921875,
+                12518.8876953125
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                12364.6376953125,
+                218.44390869140626,
+                12623.3447265625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                11337.068359375,
+                173.6486053466797,
+                11246.86328125
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                12371.9267578125,
+                170.95028686523438,
+                10890.107421875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                11803.3232421875,
+                173.60610961914063,
+                11034.2998046875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                3589.33154296875,
+                250.16741943359376,
+                10763.10546875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                2915.202392578125,
+                216.35939025878907,
+                9468.896484375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                2197.920654296875,
+                178.0711669921875,
+                8048.81640625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                512.9824829101563,
+                201.82386779785157,
+                8029.5380859375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                871.3003540039063,
+                301.48614501953127,
+                9610.4970703125
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                1060.556884765625,
+                268.0680847167969,
+                8666.416015625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                2387.775390625,
+                220.31585693359376,
+                8885.740234375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                844.2604370117188,
+                338.5844421386719,
+                10388.509765625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                7498.92041015625,
+                246.3478240966797,
+                10690.3740234375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                8473.40625,
+                235.16961669921876,
+                10926.87109375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                10506.1728515625,
+                213.21017456054688,
+                10117.380859375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                11293.255859375,
+                175.1884002685547,
+                10420.6767578125
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                7419.7646484375,
+                277.07366943359377,
+                9443.12890625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                12125.447265625,
+                235.61880493164063,
+                8841.25
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                10344.9443359375,
+                288.6822204589844,
+                7781.3291015625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                5840.47705078125,
+                228.86639404296876,
+                8077.2099609375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                5999.07958984375,
+                317.5461120605469,
+                6167.6630859375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                5208.02099609375,
+                305.35260009765627,
+                6177.275390625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                3301.659912109375,
+                279.5849304199219,
+                5843.29638671875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                3975.10791015625,
+                243.15087890625,
+                6407.53515625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                8221.912109375,
+                252.0217742919922,
+                7162.99365234375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                2422.89501953125,
+                309.080078125,
+                6405.99072265625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                1074.0208740234376,
+                280.79730224609377,
+                6182.5771484375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                795.5551147460938,
+                193.62710571289063,
+                7346.58837890625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                394.9592590332031,
+                170.8517303466797,
+                7375.05078125
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                5876.46826171875,
+                173.6417236328125,
+                10478.3662109375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                3447.67919921875,
+                170.38352966308595,
+                8991.466796875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                438.22088623046877,
+                253.71331787109376,
+                6385.443359375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                11881.8603515625,
+                286.23846435546877,
+                6364.8076171875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "HuntingCamp",
+            "Location": [
+                10293.1162109375,
+                265.2696533203125,
+                7038.46533203125
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                2167.74658203125,
+                172.15647888183595,
+                7936.09375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                2499.664794921875,
+                175.08078002929688,
+                8191.46630859375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                3236.6787109375,
+                174.20957946777345,
+                8539.3291015625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                3346.230712890625,
+                175.20030212402345,
+                9259.2763671875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                4052.2587890625,
+                180.22019958496095,
+                9287.4384765625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                4254.1728515625,
+                177.36720275878907,
+                8805.427734375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                5734.83984375,
+                174.32984924316407,
+                10261.9462890625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                5878.734375,
+                176.73556518554688,
+                10559.23828125
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                6179.1513671875,
+                175.8878936767578,
+                10819.0556640625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                6046.8271484375,
+                180.73175048828126,
+                11013.015625
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                6326.828125,
+                172.10174560546876,
+                10854.6162109375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                7668.1259765625,
+                172.46279907226563,
+                11718.0859375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                8019.5009765625,
+                174.69082641601563,
+                11823.3271484375
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                8161.20263671875,
+                173.77235412597657,
+                11985.7607421875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                9418.880859375,
+                175.5987548828125,
+                11784.75
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        },
+        {
+            "CampName": "RiverHuntingCamp",
+            "Location": [
+                11275.78125,
+                176.52369689941407,
+                11151.0888671875
+            ],
+            "TentType": "ZenCamps_ShelterLeather",
+            "PredefinedLoot": "HuntingLoot",
+            "Loot": []
+        }
+    ]
+}

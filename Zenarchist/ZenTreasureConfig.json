@@ -1,0 +1,1072 @@
+{
+    "ConfigVersion": "1",
+    "DebugTeleportToPhoto": 0,
+    "DebugAlwaysSpawnStashID": -1,
+    "TreasurePersistenceSecs": 1209600,
+    "PredefinedTypes": [
+        {
+            "ConfigName": "Predef_SVD",
+            "Item": {
+                "ClassName": "SVD",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "MinHealth": 10,
+                "SpawnChance": 1.0,
+                "Attachments": [
+                    "Mag_SVD_10Rnd",
+                    "PSO11Optic|h=0.01|c=0.5",
+                    "Battery9V",
+                    "AmmoBox_762x54Tracer_20Rnd|c=0.9",
+                    "AmmoBox_762x54Tracer_20Rnd|c=0.9"
+                ]
+            }
+        },
+        {
+            "ConfigName": "Predef_Mosin",
+            "Item": {
+                "ClassName": "Mosin9130|Mosin9130_Camo|Mosin9130_Black|Mosin9130_Green",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "MinHealth": 10,
+                "SpawnChance": 1.0,
+                "Attachments": [
+                    "PUScopeOptic",
+                    "AmmoBox_762x54Tracer_20Rnd",
+                    "AmmoBox_762x54Tracer_20Rnd|c=0.9"
+                ]
+            }
+        },
+        {
+            "ConfigName": "Predef_Winchester",
+            "Item": {
+                "ClassName": "Winchester70|Winchester70_Black|Winchester70_Green",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "MinHealth": 10,
+                "SpawnChance": 1.0,
+                "Attachments": [
+                    "HuntingOptic",
+                    "AmmoBox_308WinTracer_20Rnd",
+                    "AmmoBox_308WinTracer_20Rnd|c=0.9"
+                ]
+            }
+        },
+        {
+            "ConfigName": "Predef_AmmoBox",
+            "Item": {
+                "ClassName": "AmmoBox",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "MinHealth": 10,
+                "SpawnChance": 1.0,
+                "Attachments": [
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox",
+                    "ZenRandomAmmoBox"
+                ]
+            }
+        },
+        {
+            "ConfigName": "Predef_NBC",
+            "Item": {
+                "ClassName": "ddu_nbc_pouch_black",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "MinHealth": 10,
+                "SpawnChance": 1.0,
+                "Attachments": [
+                    "NBCGlovesGray|c=0.5",
+                    "NBCHoodGray|c=0.5",
+                    "NBCPantsGray|c=0.5",
+                    "NBCBootsGray|c=0.5",
+                    "GasMask|c=0.5",
+                    "GasMaskWinter|c=0.5",
+                    "NBCBootsWinter|c=0.5",
+                    "NBCPantsWinter|c=0.5",
+                    "NBCHoodWinter|c=0.5",
+                    "NBCGlovesWinter|c=0.5"
+                ]
+            }
+        }
+    ],
+    "TreasureTypes": [
+        {
+            "ConfigName": "Generic_Small",
+            "Description": "valuable",
+            "ContainerType": "ZenTreasure_WoodenCrate",
+            "Loot": []
+        },
+        {
+            "ConfigName": "Generic_Large",
+            "Description": "valuable",
+            "ContainerType": "ZenTreasure_SeaChest",
+            "Loot": []
+        },
+        {
+            "ConfigName": "HuntingLoot_Small",
+            "Description": "hunting",
+            "ContainerType": "ZenTreasure_WoodenCrate",
+            "Loot": [
+                {
+                    "ClassName": "Predef_Winchester",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Predef_Mosin",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_762x54",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_762x54",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_762x54",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_762x54",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_762x54",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_762x54",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Ammo_308Win",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 20,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox_250",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.10000000149011612,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Whetstone",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "WeaponCleaningKit",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Expansion_Ammo_FlareSupplyRed",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.10000000149011612,
+                    "Attachments": []
+                }
+            ]
+        },
+        {
+            "ConfigName": "Basebuilding_Small",
+            "Description": "basebuilding",
+            "ContainerType": "ZenTreasure_WoodenCrate",
+            "Loot": [
+                {
+                    "ClassName": "NailBox_250",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.25,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "ExpansionCodeLock",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 1.0,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "HandSaw",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Hatchet",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Pliers",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Whetstone",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Whetstone",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Whetstone",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Whetstone",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.20000000298023225,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.20000000298023225,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.20000000298023225,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "MetalWire",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.20000000298023225,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Expansion_Ammo_FlareSupplyGreen",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.10000000149011612,
+                    "Attachments": []
+                }
+            ]
+        },
+        {
+            "ConfigName": "Military_Small",
+            "Description": "military",
+            "ContainerType": "ZenTreasure_WoodenCrate",
+            "Loot": [
+                {
+                    "ClassName": "Predef_SVD",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 1.0,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AK_Suppressor",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Mag_SVD_10Rnd",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmmoBox_762x54Tracer_20Rnd",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmmoBox_762x54Tracer_20Rnd",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmmoBox_308WinTracer_20Rnd",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmmoBox_308WinTracer_20Rnd",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmmoBox_762x39_20Rnd",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "MetalWire",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "ExpansionCodeLock",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "WeaponCleaningKit",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Expansion_Ammo_FlareSupplyBlue",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.10000000149011612,
+                    "Attachments": []
+                }
+            ]
+        },
+        {
+            "ConfigName": "Military_Large",
+            "Description": "high-grade military",
+            "ContainerType": "ZenTreasure_SeaChest",
+            "Loot": [
+                {
+                    "ClassName": "Predef_SVD",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 1.0,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AK_Suppressor",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "M4_Suppressor",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Mag_SVD_10Rnd",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "HDSN_BreachingChargeHeavy",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.1,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "HDSN_BreachingCharge",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.1,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "RemoteDetonator",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "ExpansionAmmoRPG",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "ExpansionRPG7",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "ExpansionLAW",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "ExpansionAmmoLAW",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmmoBox_762x54Tracer_20Rnd",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmmoBox_762x54Tracer_20Rnd",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox_250",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmmoBox_762x39_20Rnd",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "MetalWire",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "ExpansionCodeLock",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "WeaponCleaningKit",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Expansion_Ammo_FlareSupplyRed",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.10000000149011612,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "RGD5Grenade",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "M67Grenade",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "LandMineTrap",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.5,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "Predef_AmmoBox",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.8999999761581421,
+                    "Attachments": []
+                }
+            ]
+        },
+        {
+            "ConfigName": "Medical_Small",
+            "Description": "medical",
+            "ContainerType": "ZenTreasure_SeaChest",
+            "Loot": [
+                {
+                    "ClassName": "Predef_NBC",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 1.0,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmpouleAlcohol",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmpouleErytropoenin",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmpouleAdrenalin30",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmpoulePentacin",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmpouleCarboxyme",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmpouleMetralindol",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmpouleActaparoxetine",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmpouleAmitriptyline",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmpouleZivirol",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "AmpouleFlemoclav",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorPromedol",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorZivirol",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorTopoizomeraza",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorErytropoenin",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorNeiroks",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorAmoksivan",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorKetorol",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorEpipen",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorNovichek",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorRadioprotector",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorExpBoost10x",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.2000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorExpBoost5x",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.4000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "InjectorExpBoost2x",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "TabletsB190",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 10,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "TabletsMexamine",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 10,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "TabletsAgteminol",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 10,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "TabletsAdepress",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 10,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "TabletsActaparoxetine",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 10,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "TabletsAmitriptyline",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 10,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "TabletsVenlafaxine",
+                    "MinQuantity": 10,
+                    "MaxQuantity": 10,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "SyringeEmpty",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NBCHoodYellow",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NBCGlovesYellow",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NBCPantsYellow",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NBCJacketYellow",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "NBCBootsYellow",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                },
+                {
+                    "ClassName": "GasMask_Filter",
+                    "MinQuantity": 1,
+                    "MaxQuantity": 1,
+                    "MinHealth": 10,
+                    "SpawnChance": 0.6000000238418579,
+                    "Attachments": []
+                }
+            ]
+        }
+    ]
+}

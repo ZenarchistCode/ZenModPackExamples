@@ -1,0 +1,11 @@
+{
+    "ConfigVersion": "1",
+    "CombatLogoutSecs": 300,
+    "DisableExitButtonSecs": 5,
+    "NotifyPlayerOfPenalty": 1,
+    "TriggerOnGunshot": 0,
+    "TriggerOnBulletImpactRadius": 0,
+    "TriggerOnExplosiveRadius": 30,
+    "DropFlareOnPlayer": 0,
+    "KillPlayer": 0
+}

@@ -1,0 +1,162 @@
+{
+    "ConfigVersion": "2",
+    "DebugZombies": 0,
+    "GlobalCrawlerChance": 0.009999999776482582,
+    "MaxCrawlerShoeDamage": 0.20000000298023225,
+    "ZombieData": [
+        {
+            "ClassName": "ZmbM_HermitSkinny_Beige",
+            "CrawlerChance": 0.8999999761581421,
+            "Clothing": [
+                {
+                    "ItemTypes": [
+                        "dzn_ghilliehoodwinter"
+                    ],
+                    "SpawnChance": 0.8999999761581421,
+                    "ItemMinHealth": 0.0,
+                    "ItemMaxHealth": 0.0
+                },
+                {
+                    "ItemTypes": [
+                        "dzn_ghilliebushragwinter"
+                    ],
+                    "SpawnChance": 0.5,
+                    "ItemMinHealth": 0.0,
+                    "ItemMaxHealth": 0.0
+                }
+            ],
+            "Loot": [
+                {
+                    "ItemTypes": [
+                        "Worm"
+                    ],
+                    "SpawnChance": 0.5,
+                    "ItemMinHealth": 0.0,
+                    "ItemMaxHealth": 1.0,
+                    "ItemMinQuantity": 1,
+                    "ItemMaxQuantity": 1
+                }
+            ]
+        },
+        {
+            "ClassName": "ZmbM_Hunt",
+            "CrawlerChance": -1.0,
+            "Clothing": [
+                {
+                    "ItemTypes": [
+                        "HuntingVest"
+                    ],
+                    "SpawnChance": 0.20000000298023225,
+                    "ItemMinHealth": 0.0,
+                    "ItemMaxHealth": 0.10000000149011612
+                },
+                {
+                    "ItemTypes": [
+                        "HuntingBag"
+                    ],
+                    "SpawnChance": 0.20000000298023225,
+                    "ItemMinHealth": 0.0,
+                    "ItemMaxHealth": 0.00009999999747378752
+                }
+            ],
+            "Loot": [
+                {
+                    "ItemTypes": [
+                        "Worm"
+                    ],
+                    "SpawnChance": 0.5,
+                    "ItemMinHealth": 0.0,
+                    "ItemMaxHealth": 1.0,
+                    "ItemMinQuantity": 1,
+                    "ItemMaxQuantity": 1
+                }
+            ]
+        },
+        {
+            "ClassName": "ZmbM_DoctorFat",
+            "CrawlerChance": -1.0,
+            "Clothing": [
+                {
+                    "ItemTypes": [
+                        "HockeyMask"
+                    ],
+                    "SpawnChance": 1.0,
+                    "ItemMinHealth": 0.0,
+                    "ItemMaxHealth": 0.10000000149011612
+                }
+            ],
+            "Loot": [
+                {
+                    "ItemTypes": [
+                        "Worm",
+                        "HumanSteakmeat"
+                    ],
+                    "SpawnChance": 1.0,
+                    "ItemMinHealth": 0.0,
+                    "ItemMaxHealth": 1.0,
+                    "ItemMinQuantity": 1,
+                    "ItemMaxQuantity": 1
+                }
+            ]
+        },
+        {
+            "ClassName": "ZmbM_SkaterYoung",
+            "CrawlerChance": -1.0,
+            "Clothing": [
+                {
+                    "ItemTypes": [
+                        "BaseballCap_BackBlue",
+						"BaseballCap_BackBeige",
+						"BaseballCap_BackBlack",
+						"BaseballCap_BackOlive",
+						"BaseballCap_BackPink",
+						"BaseballCap_BackRed",
+						"BaseballCap_BackCamo",
+						"BaseballCap_BackCMMG_Black",
+						"BaseballCap_BackCMMG_Pink",
+						"SkateHelmet_Black",
+						"SkateHelmet_Blue",
+						"SkateHelmet_Gray",
+						"SkateHelmet_Green",
+						"SkateHelmet_Red"
+                    ],
+                    "SpawnChance": 0.9,
+                    "ItemMinHealth": 0.1,
+                    "ItemMaxHealth": 0.9
+                }
+            ],
+            "Loot": [
+                {
+                    "ItemTypes": [
+                        "SyringeEmpty",
+						"Cannabis",
+						"Vodka",
+						"ZenJameson",
+						"BeerCan_XXXX",
+						"BeerCan_VB",
+						"Cigarette",
+						"Cigarette_Butt"
+                    ],
+                    "SpawnChance": 0.8,
+                    "ItemMinHealth": 0.1,
+                    "ItemMaxHealth": 1.0,
+                    "ItemMinQuantity": 1,
+                    "ItemMaxQuantity": 1000
+                },
+				{
+                    "ItemTypes": [
+						"CannabisSeedsPack",
+						"CigarettePack_Chernamorka",
+						"CigarettePack_Merkur",
+						"CigarettePack_Partyzanka"
+                    ],
+                    "SpawnChance": 0.1,
+                    "ItemMinHealth": 0.1,
+                    "ItemMaxHealth": 1.0,
+                    "ItemMinQuantity": 1,
+                    "ItemMaxQuantity": 100
+                }
+            ]
+        }
+    ]
+}

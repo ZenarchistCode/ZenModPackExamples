@@ -1,0 +1,18 @@
+{
+    "CONFIG_VERSION": "1",
+    "ShouldLogItems": 1,
+    "TextContains": 1,
+    "LogItems": [
+        "Plastic_Explosive",
+		"ExpansionSatchel",
+		"HDSN_BreachingCharge",
+		"HDSN_BreachingChargeHeavy",
+		"Nail",
+		"Nailbox",
+		"Nailbox_250",
+		"ExpansionAmmoRPG",
+		"ExpansionAmmoLAW",
+		"Cannabis",
+		"Plant_Cannabis"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "ConfigVersion": "2",
+    "TimeToRespawn": 259200,
+    "TreeHard": 1,
+    "TreeSoft": 1,
+    "BushHard": 1,
+    "BushSoft": 1
+}
