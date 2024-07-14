@@ -1,0 +1,40 @@
+		<!-- Loot spawns for Zen's Treehouses - merge with vanilla mapgroupproto.xml -->
+		<group name="Land_ZenTreeHouse_Ladder" lootmax="2">
+			<usage name="Hunting" />
+			<container name="lootFloor" lootmax="2">
+				<category name="tools" />
+				<category name="containers" />
+				<category name="clothes" />
+				<category name="food" />
+				<category name="weapons" />
+				<tag name="floor" />
+				<tag name="shelves" />
+				<point pos="-2.121422 5.601023 0.994468" range="1" height="1" /> 
+				<point pos="0.137330 5.601023 -3.477338" range="1" height="1" /> 
+				<point pos="-2.038256 5.601023 -1.289813" range="1" height="1" /> 
+				<point pos="2.112323 5.601023 -3.017523" range="1" height="1" /> 
+				<point pos="0.048267 5.601023 1.372965" range="1" height="1" /> 
+				<point pos="2.130296 5.601023 0.917637" range="1" height="1" /> 
+				<point pos="2.007681 5.601023 -1.128300" range="1" height="1" /> 
+				<point pos="-0.215696 5.601023 -1.566466" range="1" height="1" /> 
+			</container>
+		</group>
+		<group name="Land_ZenTreeHouse_Bare" lootmax="2">
+			<usage name="Hunting" />
+			<container name="lootFloor" lootmax="2">
+				<category name="tools" />
+				<category name="containers" />
+				<category name="clothes" />
+				<category name="food" />
+				<category name="weapons" />
+				<tag name="floor" />
+				<tag name="shelves" />
+				<point pos="2.179542 5.601023 -3.199746" range="1" height="1" /> 
+				<point pos="2.525028 5.601023 1.931391" range="1" height="1" /> 
+				<point pos="-2.188414 5.601023 1.919319" range="1" height="1" /> 
+				<point pos="1.956429 5.601023 -0.637909" range="1" height="1" /> 
+				<point pos="0.231135 5.601023 -2.675394" range="1" height="1" /> 
+				<point pos="-2.109237 5.601023 -0.620819" range="1" height="1" /> 
+				<point pos="0.065261 5.601023 1.672772" range="1" height="1" /> 
+			</container>
+		</group>
